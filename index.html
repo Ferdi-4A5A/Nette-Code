@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Volledige Naam</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <link rel="stylesheet" type="text/css" href="../css/fullname.css">
     <script src="../js/main.js"></script>
 </head>
@@ -12,7 +12,6 @@
 <body>
 
     <form>
-
         <div>
             <label for="firstname">Voornaam:</label>
             <input type="text" id="firstname" name="firstname" placeholder="Voer een voornaam in" />
@@ -26,12 +25,13 @@
         <div>
             <button type= "button" id="show_fullname">Toon volledige naam</button>
         </div>
-
     </form>
 
     <div id="result_fullname"></div>
 
 <script>
+    // Het is standaard niet mogelijk om een eventlistener van een buttonclick in een extern js bestand zetten
+    // Het is wel mogelijk om de code aan te passen en een onclick attribuut aan de button mee te geven
     document.getElementById("show_fullname").addEventListener("click", showFullname);
 </script>
 
