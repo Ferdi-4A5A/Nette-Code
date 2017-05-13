@@ -1,93 +1,57 @@
-<html>
+<!DOCTYPE html>
+<html lang=en>
+
 <head>
+    <meta charset="UTF-8">
     <title>Gallery | Demo Site</title>
-    <link rel="stylesheet" href="allesdoorelkaar/style.css">
-    <style>
-    
-
-.gallery {
-                        padding: 0;
-                    }
-
-.gallery li 
-        
-{
-    list-style-type: none;
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-        
-.gallery figure {    background: #999;
-    color: #fff;
-    display: inline-block;
-    margin: 0;
-    padding: 3px;
-    border-radius: 10px; }
-
-        
-.gallery figure img {
-            border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.gallery figcaption {
-    padding: 0.5em 0;
-    text-align: center;
-}
-
-.gallery figure {
-    transition: transform 1s 0s linear;
-    transform: rotate(5deg);
-}
-
-
-.gallery figure:hover {
-    transition: transform 0.5s 0s linear;
-    transform: rotate(-30deg);
-    }
-    
-    
-    </style>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/gallery.css">
 </head>
+
 <body class="gallery-page no-sidebar-layout">
+
     <header id="header">
         <h2 class="site-title">Demo Site</h2>
     </header>
 
-    <nav id="main-nav">
+    <nav id="main_nav">
+
         <ul>
-            <li><a src="home.html">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
+
     </nav>
 
-    <div id="content-container">
-        <main id="main-content">
+    <div id="content_container">
+
+        <main id="main_content">
+
             <h1>Gallery</h1>
 
             <ul class="gallery">
                 <li>
                     <figure>
-                        <img src="allesdoorelkaar/nightlife-1.PNG" alt="">
+                        <img src="../img/nightlife-1.jpg" alt="">
                         <figcaption>Morbi scelerisque eros</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="nightlife-2.jpg" alt="">
+                        <img src="../img/nightlife-2.jpg" alt="">
                         <figcaption>Morbi scelerisque eros</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="allesdoorelkaar/nightlife-3.jpg" alt="">
+                        <img src="../img/nightlife-3.jpg" alt="">
                         <figcaption>Morbi scelerisque eros</figcaption>
                     </figure>
                 </li>
             </ul>
+
         </main>
+
     </div>
 
     <footer>
@@ -100,5 +64,6 @@
             amet massa.
         </p>
     </footer>
+
 </body>
 </html>
